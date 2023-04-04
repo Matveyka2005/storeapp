@@ -1,0 +1,10 @@
+{% extends 'layout/basic.html' %}
+
+{% block content %}
+    {% for film in films %}
+        <div class="film-div">
+            {{ film.name }}
+            {{ film.category }}
+        </div>
+    {% endfor %}
+{% endblock %}

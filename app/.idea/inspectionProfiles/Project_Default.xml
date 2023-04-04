@@ -1,0 +1,17 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="explore.models.Product.objects" />
+          <option value="explore.models.Category.objects" />
+          <option value="explore.models.OwnerProductRelation.objects" />
+          <option value="books.models.Books.objects" />
+          <option value="django.db.models.fields.related.ForeignKey.username" />
+          <option value="books.models.UserBookRelation.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
